@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+  <div>
+  <h1 id="main-title">Weather Forecast</h1>
+  <div id="searchCont">
+    <p id="inputCont">Search city: <input type="text" id="cityInp"><button id="searchbtn"><i class="fa fa-search"></i></button></p>
+ 
+  <center>
+  <div class="cards1">
+    <h2 id="cityName">City</h2>
+    <div class="imgM text-center"><img src="sunPH.png" class="imgClass" id="img1" alt="" width="150px"></div>
+        <p class="current" id="currentTemp">current temp</p>
+        <p class="current" id="feelsLike">feels like</p>
+  </div>
+  </center>
+
+  <div id="weatherCont">
+    <div class="row" id="iconsCont">
+      
+      <div class="cards col-md col-sm-12" id="c1">
+        <p class="weather text-center" id="day1"></p>
+        <div class="img text-center"><img src="sunPH.png" class="imgClass" id="img1" alt="" width="75px"></div>
+        <div class="min-max text-center">
+          <div><p class="minVal" id="day1min">minimum</p></div>
+          <div><p class="maxVal" id="day1max">maximum</p></div>
+        </div>
+      </div>
+      
+      <div class="cards col-md col-sm-12">
+        <p class="weather text-center" id="day2"></p>
+        <div class="img text-center"><img src="sunPH.png" class="imgClass" id="img2" alt="" width="75px"></div>
+        <div class="min-max text-center">
+          <div><p class="minVal" id="day2min">minimum</p></div>
+          <div><p class="maxVal" id="day2max">maximum</p></div>
+        </div>
+      </div>
+
+      <div class="cards col-md col-sm-12">
+        <p class="weather text-center" id="day3"></p>
+        <div class="img text-center"><img src="sunPH.png" class="imgClass" id="img3" alt="" width="75px"></div>
+        <div class="min-max text-center">
+          <div><p class="minVal" id="day3min">minimum</p></div>
+          <div><p class="maxVal" id="day3max">maximum</p></div>
+        </div>
+      </div>
+
+      <div class="cards col-md col-sm-12">
+        <p class="weather text-center" id="day4"></p>
+        <div class="img text-center"><img src="sunPH.png" class="imgClass" id="img4" alt="" width="75px"></div>
+        <div class="min-max text-center">
+          <div><p class="minVal" id="day4min">minimum</p></div>
+          <div><p class="maxVal" id="day4max">maximum</p></div>
+        </div>
+      </div>
+
+      <div class="cards col-md col-sm-12">
+        <p class="weather text-center" id="day5"></p>
+        <div class="img text-center"><img src="sunPH.png" class="imgClass" id="img5" alt="" width="75px"></div>
+        <div class="min-max text-center">
+          <div><p class="minVal" id="day5min">minimum</p></div>
+          <div><p class="maxVal" id="day5max">maximum</p></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src = "app.js"></script>
+</body>
+</html>
